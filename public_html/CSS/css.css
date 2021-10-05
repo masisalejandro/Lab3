@@ -1,0 +1,134 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/10/2021, 02:50:05 PM
+    Author     : masis
+*/
+
+#contenido{
+    
+    width: 440px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    
+    border-radius: 45px 45px 23px 114px;
+    -moz-border-radius: 45px 45px 23px 114px;
+    -webkit-border-radius: 45px 45px 23px 114px;
+    border: 8px solid #827b82;
+    
+    position: relative;
+    
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-align: left;
+    padding-left: 6px;
+
+}
+
+#caja1{
+    
+    width: 100px;
+    height: 100px;
+    margin-left: 70px;
+    
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    border: 10px solid #b7171a;
+    background-color: #CC878D;
+    
+    font-size: 22px;
+    font-family: sagoe ui black;
+    color: white;
+    text-align: center;
+    
+    position: absolute;
+    top: 67%;
+    z-index: 50;
+
+}
+
+#caja2{
+    
+    width: 100px;
+    height: 120px;
+    margin-left: 260px;
+    
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    border: 10px solid #004696;
+    background-color: #85A5C6;
+    
+    font-size: 22px;
+    font-family: sagoe ui black;
+    color: white;
+    text-align: center;
+        
+    position: absolute;
+    top: 62.5%;
+    z-index: 50;
+}
+
+#caja3{
+    
+    width: 100px;
+    height: 160px;
+    margin-left: 165px;
+    
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    border: 10px solid #007F0E;
+    background-color: #80B987;
+    
+    font-size: 22px;
+    font-family: sagoe ui black;
+    color: white;
+    text-align: center;
+        
+    position: absolute;
+    top: 54%;
+    z-index: 50;
+}
+
+#persona{
+    background: url(10957.png) no-repeat;
+    background-size: cover;
+    height: 110px;
+    width: 110px;
+    margin-left: 175px;
+    
+    position: absolute;
+    top: 29%;
+    z-index: 50;    
+}
+
+@keyframes copa{
+    0% {top:0px;}
+    50% {top:110px;}
+    80% {top:80px;}
+    90% {top:90px;}
+    100% {top:95px;}
+    
+}
+
+#copa{
+    background: url(3112946.png) no-repeat;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    margin-left: 175px;
+    
+    position: absolute;
+    top: 21%;
+    animation-name:copa;
+    animation-duration: 4s;
+}
